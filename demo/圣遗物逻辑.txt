@@ -1,0 +1,87 @@
+/*suit=randomNum(1,2);
+	//随机位置
+	position=randomNum(0,4);
+
+	//随机主词条
+	if(position==0)//花
+	{
+		main_stat=0;//hp
+	}
+	else if(position==1)//羽
+	{
+		main_stat=2;//atk
+	}
+	else{
+		int totalWeight=0;
+		for(int i=0;i<19;++i)
+		{
+			totalWeight+=main_weight[position][i];
+		}
+		int random=randomNum(1,totalWeight);
+		for(int i=0,j=0;i<19;++i)
+		{
+			j+=main_weight[position][i];
+			if(j>=random)
+			{
+				main_stat=i;
+				break;
+			}
+		}
+	}
+
+	//随机副词条
+	int sub_weightCopy[10];
+	int totalWeight=0;
+	for(int i=0;i<10;++i)
+	{
+		sub_weightCopy[i]=sub_weight[i];
+		totalWeight+=sub_weight[i];
+	}
+	if(main_stat<10){
+		sub_weightCopy[main_stat]=0;
+		totalWeight-=sub_weight[main_stat];
+	}//不能冲突
+	int random=randomNum(1,totalWeight);
+	for(int k=0;k<4;++k)//抽取4次副词条
+	{
+		for(int i=0,j=0;i<10;++i)
+		{
+			j+=sub_weightCopy[i];
+			if(j>=random)
+			{
+				sub_stat[i]=1;
+				break;
+			}
+		}
+	}
+
+	//随机强化
+	int distribution[4];
+	for(int i=0;i<4;++i)
+	{
+		distribution[i]=0;
+	}
+	for(int i=0;i<4;++i)//强化基础的4次
+	{
+		distribution[randomNum(0,3)]+=1;
+	}
+	if(randomNum(1,1000)>800)
+	{
+		distribution[randomNum(0,3)]+=1;
+	}
+	for(int i=0,j=0;i<10;++i)
+	{
+		if(sub_stat[i]==1)
+		{
+			sub_stat[i]+=distribution[j++];
+		}
+	}
+
+	//改modifier
+	double temp[20]={0};
+	temp[main_stat]+=main_addState[main_stat];
+	for(int i=0;i<10;++i)
+	{
+		temp[i]+=sub_stat[i]*sub_addState[i];
+	}
+	Artifact_modifier.update(temp);*/

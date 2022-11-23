@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.25.0)
+project(Demo VERSION 0.1.0)
+include_directories("./header")
+aux_source_directory(. developer_src)
+set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR}/bin)
+add_executable(demo ${developer_src})
