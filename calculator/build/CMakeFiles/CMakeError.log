@@ -1,0 +1,105 @@
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-d5cq5s
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_a6d7d/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a6d7d.dir\build.make CMakeFiles/cmTC_a6d7d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-d5cq5s'
+Building C object CMakeFiles/cmTC_a6d7d.dir/CMakeCCompilerABI.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_a6d7d.dir\CMakeCCompilerABI.c.obj -c D:\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a6d7d.dir\build.make:77: CMakeFiles/cmTC_a6d7d.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-d5cq5s'
+mingw32-make.exe: *** [Makefile:126: cmTC_a6d7d/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-vgtpma
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ea788/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ea788.dir\build.make CMakeFiles/cmTC_ea788.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-vgtpma'
+Building C object CMakeFiles/cmTC_ea788.dir/testCCompiler.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_ea788.dir\testCCompiler.c.obj -c D:\dev\calculator\build\CMakeFiles\CMakeScratch\TryCompile-vgtpma\testCCompiler.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ea788.dir\build.make:77: CMakeFiles/cmTC_ea788.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-vgtpma'
+mingw32-make.exe: *** [Makefile:126: cmTC_ea788/fast] Error 2
+
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-bouw1v
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_79c9e/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_79c9e.dir\build.make CMakeFiles/cmTC_79c9e.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-bouw1v'
+Building C object CMakeFiles/cmTC_79c9e.dir/CMakeCCompilerABI.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_79c9e.dir\CMakeCCompilerABI.c.obj -c D:\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_79c9e.dir\build.make:77: CMakeFiles/cmTC_79c9e.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-bouw1v'
+mingw32-make.exe: *** [Makefile:126: cmTC_79c9e/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-05m3tv
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ee987/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_ee987.dir\build.make CMakeFiles/cmTC_ee987.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-05m3tv'
+Building C object CMakeFiles/cmTC_ee987.dir/testCCompiler.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_ee987.dir\testCCompiler.c.obj -c D:\dev\calculator\build\CMakeFiles\CMakeScratch\TryCompile-05m3tv\testCCompiler.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_ee987.dir\build.make:77: CMakeFiles/cmTC_ee987.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-05m3tv'
+mingw32-make.exe: *** [Makefile:126: cmTC_ee987/fast] Error 2
+
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+x86_64-w64-mingw32-gcc-4.9.2.exe: fatal error: no input files
+compilation terminated.
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-hhnqgu
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_33fde/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_33fde.dir\build.make CMakeFiles/cmTC_33fde.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-hhnqgu'
+Building C object CMakeFiles/cmTC_33fde.dir/CMakeCCompilerABI.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_33fde.dir\CMakeCCompilerABI.c.obj -c D:\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_33fde.dir\build.make:77: CMakeFiles/cmTC_33fde.dir/CMakeCCompilerABI.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-hhnqgu'
+mingw32-make.exe: *** [Makefile:126: cmTC_33fde/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-4inr0g
+
+Run Build Command(s):D:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_356b7/fast && D:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_356b7.dir\build.make CMakeFiles/cmTC_356b7.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-4inr0g'
+Building C object CMakeFiles/cmTC_356b7.dir/testCCompiler.c.obj
+D:\mingw64\bin\x86_64-w64-mingw32-gcc-4.9.2.exe    -o CMakeFiles\cmTC_356b7.dir\testCCompiler.c.obj -c D:\dev\calculator\build\CMakeFiles\CMakeScratch\TryCompile-4inr0g\testCCompiler.c
+x86_64-w64-mingw32-gcc-4.9.2.exe: error: CreateProcess: No such file or directory
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_356b7.dir\build.make:77: CMakeFiles/cmTC_356b7.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/dev/calculator/build/CMakeFiles/CMakeScratch/TryCompile-4inr0g'
+mingw32-make.exe: *** [Makefile:126: cmTC_356b7/fast] Error 2
+
+
+

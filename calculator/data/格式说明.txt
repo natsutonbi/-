@@ -1,0 +1,15 @@
+ascension
+突破属性，4星，5星对应基础值
+
+level
+等级，4星，5星对应等级系数
+
+stat_main
+横轴：主词条对应位置（花羽沙杯头）
+竖轴：对应属性主词条权值
+
+stat_sub
+对应副词条权值（主词条前10个）
+
+state_basic 
+name star 角色属性 hp atk def 突破附加属性
